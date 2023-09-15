@@ -1,0 +1,24 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.task {
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
